@@ -21,6 +21,11 @@ class Mainframe ( wx.Frame ):
 		
 		self.SetSizeHintsSz( wx.DefaultSize, wx.DefaultSize )
 		
+		bSizer1 = wx.BoxSizer( wx.VERTICAL )
+		
+		
+		self.SetSizer( bSizer1 )
+		self.Layout()
 		
 		self.Centre( wx.BOTH )
 	
